@@ -298,6 +298,7 @@ pause
 goto restart
 
 :installadb
+7z e UniversalAdbDriverSetup.zip
 msiexec.exe /i UniversalAdbDriverSetup.msi
 goto restart
 
